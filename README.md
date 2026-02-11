@@ -70,10 +70,15 @@ No installation required.
 📂 Project Structure
 Exam-Score-Prediction-App/
 │
+
 ├── main.py
+
 ├── best_xgboost_model.pkl
+
 ├── label_encoders.pkl
+
 ├── requirements.txt
+
 └── README.md
 
 ▶️ Run Locally
