@@ -84,6 +84,7 @@ Exam-Score-Prediction-App/
 ▶️ Run Locally
 1️⃣ Clone Repository
 git clone https://github.com/omkar834-droidk/Exam-Score-Prediction-App.git
+
 cd Exam-Score-Prediction-App
 
 2️⃣ Create Virtual Environment
