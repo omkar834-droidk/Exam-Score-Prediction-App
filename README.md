@@ -1,81 +1,69 @@
 📊 Exam Score Prediction App
 
-🚀 Live App:
+🚀 Live Application:
 👉 https://exam-score-prediction-app-gz4a6dvoetibpmqzn5p7zz.streamlit.app/
 
 🎯 Project Overview
 
-This is an end-to-end Machine Learning web application that predicts a student's exam score based on study habits, attendance, sleep patterns, and exam difficulty.
+An end-to-end Machine Learning Web Application that predicts student exam scores based on academic behavior and lifestyle patterns.
 
-The project demonstrates the complete ML lifecycle:
+This project demonstrates a complete ML pipeline from model training to live cloud deployment.
 
-Data preprocessing
+🧠 Machine Learning Highlights
 
-Feature engineering
+✅ Model Used: XGBoost Regressor
 
-Label encoding
+✅ Hyperparameter Tuning: GridSearchCV
 
-Hyperparameter tuning with GridSearchCV
+✅ Problem Type: Regression
 
-Model training using XGBoost
+✅ Target Variable: Exam Score
 
-Model serialization using Pickle
+✅ Model Serialization: Pickle
 
-Deployment using Streamlit Cloud
+✅ Deployment Platform: Streamlit Cloud
 
-Version control using Git & GitHub
+📥 Input Features
 
-This is a production-ready ML deployment project.
+The model predicts exam scores using:
 
-🧠 Machine Learning Details
+📚 Study Hours
 
-Model: XGBoost Regressor
-Tuning: GridSearchCV
-Problem Type: Regression
-Target Variable: Exam Score
+🏫 Class Attendance (%)
 
-Input Features:
+😴 Sleep Hours
 
-Study Hours
+🌙 Sleep Quality
 
-Class Attendance (%)
+📝 Study Method
 
-Sleep Hours
+🏢 Facility Rating
 
-Sleep Quality
-
-Study Method
-
-Facility Rating
-
-Exam Difficulty
+🎯 Exam Difficulty
 
 🛠️ Tech Stack
 
-Python
+🐍 Python
 
-Pandas
+📊 Pandas
 
-NumPy
+🔢 NumPy
 
-Scikit-learn
+🤖 Scikit-learn
 
-XGBoost
+🚀 XGBoost
 
-Streamlit
+🌐 Streamlit
 
-Git
+🔧 Git & GitHub
 
-GitHub
+☁ Streamlit Cloud
 
-Streamlit Cloud (Deployment)
+🌍 Live Demo
 
-🌐 Live Application
+Click below to test the deployed model:
 
-You can test the deployed model here:
-
-👉 Live Demo:
-https://exam-score-prediction-app-gz4a6dvoetibpmqzn5p7zz.streamlit.app/
+👉 https://exam-score-prediction-app-gz4a6dvoetibpmqzn5p7zz.streamlit.app/
 
 No installation required.
 
@@ -89,28 +77,33 @@ Exam-Score-Prediction-App/
 └── README.md
 
 ▶️ Run Locally
-1️⃣ Clone the Repository
+1️⃣ Clone Repository
 git clone https://github.com/omkar834-droidk/Exam-Score-Prediction-App.git
 cd Exam-Score-Prediction-App
 
 2️⃣ Create Virtual Environment
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate
 
-3️⃣ Install Dependencies
+3️⃣ Install Requirements
 pip install -r requirements.txt
 
-4️⃣ Run the App
+4️⃣ Run Application
 streamlit run main.py
 
 📈 What This Project Demonstrates
 
-✔ End-to-End Machine Learning Pipeline
-✔ Feature Encoding Handling in Deployment
-✔ Model Serialization & Loading
-✔ Feature Schema Alignment
-✔ Cloud Deployment
-✔ Version Control Best Practices
+🔹 End-to-End ML Pipeline
+
+🔹 Feature Engineering & Encoding
+
+🔹 Hyperparameter Optimization
+
+🔹 Model Deployment
+
+🔹 Cloud Hosting
+
+🔹 Version Control Best Practices
 
 🚀 Future Improvements
 
@@ -118,15 +111,15 @@ Add feature importance visualization
 
 Add performance metrics dashboard
 
-Replace Label Encoding with One-Hot Encoding
+Improve UI styling
 
-Add data validation layer
+Implement One-Hot Encoding
 
-Improve UI styling with custom themes
+Add input validation layer
 
 👨‍💻 Author
 
 Omkar Salunke
-Aspiring Data Scientist | Machine Learning Engineer
+Aspiring Data Scientist | Machine Learning Enthusiast
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you found this project interesting, consider giving it a ⭐ on GitHub.
